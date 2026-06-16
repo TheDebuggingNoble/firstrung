@@ -1,0 +1,26 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# secrets — NEVER commit these
+.env
+.env.local
+.env*.local
+
+# local dev data store (contains PII in dev)
+/.data/
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+.vscode/*
+!.vscode/extensions.json
+tsconfig.tsbuildinfo
+next-env.d.ts
